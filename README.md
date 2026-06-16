@@ -1,30 +1,13 @@
 # Curso de Introducción a la IA — Equipo Roig
-**Duración:** 1 hora · **Nivel:** Sin conocimientos previos · **Fecha:** Junio 2026
+**Duración:** 1 hora · **Fecha:** Junio 2026
+
+Bienvenido/a al curso. Esta guía es tuya para seguir los ejercicios durante la sesión y consultar después cuando quieras aplicar la IA en tu día a día.
 
 ---
 
-## Índice de bloques
+## La regla de los 3 elementos
 
-| # | Bloque | Tiempo |
-|---|--------|--------|
-| 0 | Bienvenida y calibración | 5 min |
-| 1 | La IA como asistente de texto y análisis | 15 min |
-| 2 | La IA con documentos y archivos | 10 min |
-| 3 | Marketing y comunicación con IA | 10 min |
-| 4 | Recursos Humanos con IA | 10 min |
-| 5 | Taller rápido: cada uno su prompt | 5 min |
-| 6 | Buenas prácticas y cierre | 5 min |
-
----
-
-## Bloque 0 — Bienvenida y calibración (5 min)
-
-### Guía del formador
-- Abrir en el navegador: **claude.ai** o **chatgpt.com** — sin instalar nada
-- Explicar en dos frases qué es la IA generativa: *"Es un colaborador que sabe de todo pero puede equivocarse. Tú siempre revisas y firmas."*
-- Regla de oro de la sesión: **Contexto + Tarea + Formato de salida** = prompt que funciona
-
-### La regla de los 3 elementos
+Todo buen prompt tiene estas tres partes:
 
 ```
 🔵 CONTEXTO  →  Quién eres, cuál es tu negocio, qué datos tienes
@@ -32,21 +15,19 @@
 🟢 FORMATO   →  Cómo quieres la respuesta (tabla, lista, informe, email...)
 ```
 
----
+Cuanto más concreto seas en cada bloque, mejor será la respuesta.
 
-## Bloque 1 — La IA como asistente de texto y análisis (15 min)
-
-### Guía del formador
-Tres demos en directo, cada una ~4 min. Abrir el fichero de ejemplo correspondiente, copiar el contenido y pegarlo en el chat.
+**Herramientas que usaremos:** [claude.ai](https://claude.ai) · [chatgpt.com](https://chatgpt.com) — sin instalar nada, solo el navegador.
 
 ---
 
-### Demo 1.1 — Filtrar y sumar tiques de parking
-**Para:** Antonia Pons / Xisca Rigo · **Fichero:** `ejemplo_extracto_bancario.txt`
+## Ejercicio 1 — Filtrar y sumar tiques de parking
+**Para:** Antonia / Xisca · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_extracto_bancario.txt)
 
-> **Caso real:** El extracto del prepago empresa (CaixaBank) tiene 74 operaciones. Hay que introducir en SAGE solo las partidas de AENA y SMAP, excluyendo recargas y establecimientos que no sean parking.
+**Situación:** Tienes el extracto mensual del prepago empresa con 40 operaciones mezcladas. Hay que identificar solo las de parking para introducirlas en SAGE, sin recargas ni otros establecimientos.
 
-**Prompt:**
+**Cómo hacerlo:** descarga el fichero, ábrelo, copia todo el contenido y pégalo al final del prompt.
+
 ```
 🔵 CONTEXTO:
 Soy responsable de facturación en una empresa de rent-a-car.
@@ -66,12 +47,11 @@ Datos: [PEGAR EL EXTRACTO AQUÍ]
 
 ---
 
-### Demo 1.2 — Informe de ventas comercial
-**Para:** Alexia Alcañiz · **Fichero:** `ejemplo_datos_ventas.txt`
+## Ejercicio 2 — Informe de ventas comercial
+**Para:** Alexia · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_datos_ventas.txt)
 
-> **Caso real:** Cada mes Alexia necesita claridad sobre ventas por delegación. Sin CRM nuevo, la IA actúa como analista de datos.
+**Situación:** Tienes los datos de ventas de mayo por delegación. Necesitas un informe ejecutivo claro para tomar decisiones, sin tener que interpretar los números tú misma.
 
-**Prompt:**
 ```
 🔵 CONTEXTO:
 Soy responsable comercial de una empresa de rent-a-car con 5 delegaciones en Mallorca e Ibiza.
@@ -91,12 +71,11 @@ Datos: [PEGAR AQUÍ]
 
 ---
 
-### Demo 1.3 — Comparar presupuestos de proveedores
-**Para:** Guillem Monserrat · **Fichero:** `ejemplo_presupuestos.txt`
+## Ejercicio 3 — Comparar presupuestos de proveedores
+**Para:** Guillem · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_presupuestos.txt)
 
-> **Caso real:** Guillem recibe presupuestos de varios proveedores para el mismo producto y necesita una comparativa rápida.
+**Situación:** Has recibido dos presupuestos de neumáticos. El precio total es igual, pero hay diferencias en otros factores. La IA los analiza y te dice cuál elegir.
 
-**Prompt:**
 ```
 🔵 CONTEXTO:
 Soy responsable de compras de una empresa de rent-a-car.
@@ -118,19 +97,11 @@ Presupuesto 2: [PEGAR]
 
 ---
 
-## Bloque 2 — La IA con documentos y archivos (10 min)
+## Ejercicio 4 — Generar nombres de carpeta por matrícula
+**Para:** Antonia · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_flota_vehiculos.txt)
 
-### Guía del formador
-Mostrar cómo arrastrar un fichero (Excel, PDF, imagen) directamente al chat. La IA lo lee y trabaja con él.
+**Situación:** Tienes la lista de vehículos de la flota y necesitas crear carpetas individuales para guardar los documentos escaneados de cada uno (permiso de circulación, ficha técnica, seguro...).
 
----
-
-### Demo 2.1 — Generar nombres de carpeta por matrícula
-**Para:** Antonia Pons · **Fichero:** `ejemplo_flota_vehiculos.txt`
-
-> **Caso real:** El equipo escanea documentos de flota (permisos de circulación, fichas técnicas, recibos de seguro). Se necesitan carpetas individuales por vehículo con código asignado.
-
-**Prompt:**
 ```
 🔵 CONTEXTO:
 Gestiono la documentación de una flota de 16 vehículos de alquiler.
@@ -144,17 +115,37 @@ El código empieza en B1 y sube en orden correlativo.
 🟢 FORMATO:
 Una línea por vehículo. Todo en mayúsculas, sin espacios, usando guiones bajos.
 
-[ARRASTRAR EL FICHERO O PEGAR LA LISTA]
+[PEGAR LA LISTA O ARRASTRAR EL FICHERO AL CHAT]
 ```
 
 ---
 
-### Demo 2.2 — Diseñar el flujo de devoluciones
-**Para:** Xisca Rigo
+## Ejercicio 5 — Extraer datos de una factura escaneada
+**Para:** Antonia / Cati · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_factura_escaneada.txt)
 
-> **Caso real:** Cuando llega una solicitud de devolución, el flujo no está claro: quién la aprueba, cómo se tramita según el método de pago.
+**Situación:** Tienes una factura de taller en PDF. En lugar de leerla y copiar los datos a mano, arrastras el fichero al chat y la IA extrae todo automáticamente.
 
-**Prompt:**
+```
+🔵 CONTEXTO:
+Tengo una factura de taller mecánico en formato PDF escaneado.
+
+🟡 TAREA:
+Extrae los datos principales del documento.
+
+🟢 FORMATO:
+Tabla con estas columnas: Nº Factura | Fecha | Proveedor | Matrícula vehículo | Base imponible | IVA | Total.
+Si algún dato no es legible, escribe "no legible" en esa celda.
+
+[ARRASTRAR EL PDF O IMAGEN AL CHAT]
+```
+
+---
+
+## Ejercicio 6 — Flujo de devoluciones
+**Para:** Xisca
+
+**Situación:** Cuando llega una solicitud de devolución, no siempre está claro a quién corresponde gestionarla. Este prompt convierte la IA en un asistente que guía el proceso paso a paso.
+
 ```
 🔵 CONTEXTO:
 Soy responsable de facturación en una empresa de rent-a-car.
@@ -176,37 +167,9 @@ Al terminar, genera un resumen en tabla lista para copiar al sistema de gestión
 
 ---
 
-### Demo 2.3 — Extraer datos de un documento escaneado
-**Para:** Antonia Pons / Cati Roig · **Fichero:** `ejemplo_factura_escaneada.txt`
+## Ejercicio 7 — Ideas de blog con intención SEO
+**Para:** Helena
 
-**Prompt:**
-```
-🔵 CONTEXTO:
-Tengo una factura de taller mecánico en formato PDF escaneado.
-
-🟡 TAREA:
-Extrae los datos principales del documento.
-
-🟢 FORMATO:
-Tabla con estas columnas: Nº Factura | Fecha | Proveedor | Matrícula vehículo | Base imponible | IVA | Total.
-Si algún dato no es legible, escribe "no legible" en esa celda.
-
-[ARRASTRAR EL PDF O IMAGEN]
-```
-
----
-
-## Bloque 3 — Marketing y comunicación con IA (10 min)
-
-### Guía del formador
-Demos para Helena. Mostrar también que se puede pedir a la IA que "mejore" un texto existente pasándolo directamente.
-
----
-
-### Demo 3.1 — Ideas de blog con intención SEO
-**Para:** Helena Bonnin
-
-**Prompt:**
 ```
 🔵 CONTEXTO:
 Somos una empresa de rent-a-car en Mallorca que también ofrece servicios de gestión de flotas para empresas.
@@ -222,10 +185,9 @@ Tabla con columnas: Título del artículo | Intención de búsqueda del usuario 
 
 ---
 
-### Demo 3.2 — Adaptar un eslogan a tres idiomas
-**Para:** Helena Bonnin
+## Ejercicio 8 — Adaptar un eslogan a tres idiomas
+**Para:** Helena
 
-**Prompt:**
 ```
 🔵 CONTEXTO:
 Somos una empresa de rent-a-car en Mallorca. Nuestros principales mercados son España, Alemania y Reino Unido.
@@ -242,39 +204,11 @@ Una línea por idioma con el eslogan propuesto y una frase corta explicando por 
 
 ---
 
-### Demo 3.3 — Crear buyer persona
-**Para:** Helena Bonnin
+## Ejercicio 9 — Matriz de evaluación de candidatos
+**Para:** Mariano · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_cvs_candidatos.txt)
 
-**Prompt:**
-```
-🔵 CONTEXTO:
-Somos una empresa de rent-a-car B2B en Mallorca. Queremos mejorar la segmentación de nuestras campañas
-para el mercado de empresas alemanas que necesitan vehículos para desplazamientos de negocio en la isla.
+**Situación:** Tienes 3 CVs para el puesto de Agente de Atención al Cliente. En lugar de leer cada uno y comparar mentalmente, la IA genera una matriz con puntuaciones objetivas.
 
-🟡 TAREA:
-Crea un buyer persona detallado para este perfil de cliente.
-Incluye: perfil demográfico, motivaciones de compra, puntos de dolor, canales que usa para informarse
-y objeciones habituales antes de contratar.
-
-🟢 FORMATO:
-Ficha estructurada con secciones claramente separadas. Máximo una página.
-```
-
----
-
-## Bloque 4 — Recursos Humanos con IA (10 min)
-
-### Guía del formador
-Tres demos para Mariano. Cubren selección, relaciones laborales e itinerarios formativos.
-
----
-
-### Demo 4.1 — Matriz de evaluación de candidatos
-**Para:** Mariano · **Fichero:** `ejemplo_cvs_candidatos.txt`
-
-> **Caso real:** Mariano recibe varios CVs y necesita una comparativa objetiva por competencias sin leer cada CV entero.
-
-**Prompt:**
 ```
 🔵 CONTEXTO:
 Soy responsable de RRHH en una empresa de rent-a-car.
@@ -295,12 +229,11 @@ Primero la tabla de puntuaciones. Luego un párrafo de recomendación por cada c
 
 ---
 
-### Demo 4.2 — Simulación de negociación laboral
-**Para:** Mariano · **Fichero:** `ejemplo_negociacion_rrll.txt`
+## Ejercicio 10 — Simulación de negociación laboral
+**Para:** Mariano · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_negociacion_rrll.txt)
 
-> **Caso real:** Antes de reunirse con la RLT, Mariano necesita anticipar argumentos y preparar respuestas.
+**Situación:** Antes de reunirte con el comité de empresa, necesitas anticipar sus argumentos y preparar respuestas. La IA actúa como la parte contraria para que llegues preparado.
 
-**Prompt:**
 ```
 🔵 CONTEXTO:
 Soy el responsable de RRHH de una empresa de rent-a-car en Mallorca con 78 trabajadores.
@@ -310,7 +243,7 @@ Te adjunto el contexto completo de nuestra posición y los datos de apoyo.
 🟡 TAREA:
 Simula los argumentos que podría plantear la representación sindical en contra de nuestra propuesta.
 Para cada argumento, dame el contraargumento más sólido desde nuestra posición.
-Al final, propón una posible propuesta de acuerdo intermedio que sea equilibrada y defendible para ambas partes.
+Al final, propón una posible propuesta de acuerdo intermedio equilibrada y defendible para ambas partes.
 
 🟢 FORMATO:
 Tabla de dos columnas: Argumento sindical | Nuestro contraargumento.
@@ -321,12 +254,9 @@ Luego un párrafo con la propuesta de acuerdo intermedio.
 
 ---
 
-### Demo 4.3 — Plan de onboarding
+## Ejercicio 11 — Plan de onboarding
 **Para:** Mariano
 
-> **Caso real:** Las nuevas incorporaciones se acogen de forma informal. Mariano quiere estructurar un plan de 30 días.
-
-**Prompt:**
 ```
 🔵 CONTEXTO:
 Soy responsable de RRHH en una empresa de rent-a-car en Mallorca con delegaciones en aeropuerto,
@@ -343,106 +273,34 @@ Tabla con columnas: Semana | Objetivos | Actividades | Responsable | Indicador d
 
 ---
 
-### Otros prompts útiles para RRHH
-
-- **Descripción de puesto:** *"Redacta una descripción de puesto para [CARGO]... Incluye misión, responsabilidades, competencias y condiciones."*
-- **Análisis de convenio:** *"Resume los puntos clave del siguiente convenio colectivo en relación a [TEMA]..."*
-- **KPIs de RRHH:** *"Propón 8 KPIs para el cuadro de mando de RRHH de una empresa de 80 personas en rent-a-car..."*
-
----
-
-## Bloque 5 — Taller rápido: cada uno su prompt (5 min)
-
-### Guía del formador
-- Cada participante dice su caso en voz alta
-- El formador construye el prompt en directo siguiendo la regla **Contexto + Tarea + Formato**
-- Objetivo: cada persona sale con 1 prompt listo para usar mañana
-
-### Casos preparados por si salen
-
-**Adriana — Valoración de daños en coche:**
-```
-🔵 CONTEXTO:
-Trabajo en una empresa de rent-a-car. Un cliente ha devuelto un vehículo (PEUGEOT 2008, año 2023) con daños.
-Adjunto fotos del estado del vehículo.
-
-🟡 TAREA:
-A partir de las imágenes, haz una valoración aproximada del coste de reparación de los daños visibles.
-
-🟢 FORMATO:
-Tabla con columnas: Zona del vehículo | Tipo de daño | Reparación probable | Coste estimado (€).
-```
-
-**Alexia — CRM ligero con notas de visitas:**
-```
-🔵 CONTEXTO:
-Soy responsable comercial de una empresa de rent-a-car. Tengo notas de visitas comerciales escritas
-en formato libre durante la semana.
-
-🟡 TAREA:
-Para cada nota, extrae: nombre del cliente, empresa, fecha, tema tratado, próxima acción y fecha de seguimiento.
-Evalúa la urgencia de cada cliente.
-
-🟢 FORMATO:
-Tabla con columnas: Cliente | Empresa | Fecha visita | Tema | Próxima acción | Fecha seguimiento | Prioridad (Alta/Media/Baja).
-
-Notas: [PEGAR AQUÍ]
-```
-
----
-
-## Bloque 6 — Buenas prácticas y cierre (5 min)
-
-### Lo que nunca hay que hacer
-- No pegar **datos personales de clientes** (DNI, datos bancarios, direcciones)
-- No compartir **contraseñas ni credenciales**
-- No subir información **confidencial de contratos con terceros**
-
----
-
-### Prompts que NO funcionan — y por qué
+## Lo que NO funciona — prompts malos
 
 #### ❌ El prompt vacío
 ```
 Ayúdame con las ventas.
 ```
-> **Problema:** La IA no sabe nada de ti, de tu empresa ni de lo que necesitas.
-> Responderá con consejos genéricos de manual que no te sirven de nada.
+> La IA no sabe nada de ti ni de tu empresa. Responderá con consejos genéricos de manual.
 
----
-
-#### ❌ El prompt con mucho relleno y poca sustancia
+#### ❌ Mucho relleno, poca sustancia
 ```
 Hola, buenos días, espero que estés bien. Soy una persona que trabaja en una empresa
 y me gustaría que pudieras ayudarme si no es mucha molestia con una cosa relacionada
-con mi trabajo que tengo que hacer y que me está costando un poco. Básicamente lo que
-necesito es como un informe o algo así de las ventas si puedes. Gracias de antemano
-y quedo a tu disposición para cualquier aclaración que necesites.
+con mi trabajo. Básicamente lo que necesito es como un informe o algo así de las ventas.
 ```
-> **Problema:** Mucho texto, cero información útil. La IA no sabe qué ventas, de qué periodo,
-> en qué formato, ni para qué sirve el informe. Recibirás una respuesta igual de vaga.
+> Mucho texto, cero información útil. La respuesta será igual de vaga.
 
----
-
-#### ❌ El prompt demasiado corto sin datos
+#### ❌ Sin datos adjuntos
 ```
 Analiza estos datos y haz un informe.
 ```
-> **Problema:** ¿Qué datos? ¿Qué tipo de informe? ¿Para quién? ¿En qué formato?
-> Sin contexto ni instrucciones concretas, la IA inventa o pregunta de vuelta.
+> ¿Qué datos? Si no pegas nada, la IA no tiene nada que analizar.
 
----
-
-#### ❌ El prompt que pide demasiadas cosas a la vez
+#### ❌ Demasiadas tareas a la vez
 ```
-Necesito que me hagas un informe de ventas, una presentación para gerencia, un email
-para enviar a los clientes, ideas para mejorar el negocio, un análisis de la competencia
+Necesito un informe de ventas, una presentación para gerencia, un email para clientes
 y un plan de acción para el próximo trimestre.
 ```
-> **Problema:** Seis tareas distintas en un solo mensaje. El resultado será superficial en todo.
-> Mejor hacer un prompt por tarea, uno detrás del otro.
-
----
+> Cuatro tareas en un mensaje = resultados superficiales en todo. Una tarea por prompt.
 
 #### ✅ El mismo caso, bien planteado
 ```
@@ -451,45 +309,40 @@ Soy responsable comercial de una empresa de rent-a-car en Mallorca.
 Te adjunto los datos de ventas de mayo por delegación.
 
 🟡 TAREA:
-Redacta un informe ejecutivo de máximo una página con:
-puntos positivos, puntos de mejora y 3 recomendaciones concretas.
+Redacta un informe ejecutivo de máximo una página con puntos positivos,
+puntos de mejora y 3 recomendaciones concretas.
 
 🟢 FORMATO:
 Texto con subtítulos. Tono profesional y directo.
 
 Datos: [PEGAR AQUÍ]
 ```
-> **Resultado:** La IA tiene todo lo que necesita para darte exactamente lo que pediste.
 
 ---
 
-### Cómo mejorar un prompt que no funciona
-1. **Añade más contexto** — cuanto más sabe la IA de tu situación, mejor responde
-2. **Sé más específico en la tarea** — "haz un informe" → "haz un informe de una página con 3 secciones"
-3. **Especifica el formato** — tabla, lista numerada, email formal, ficha...
-4. **Pídele que lo mejore** — "hazlo más conciso" / "añade una columna de prioridad" / "cambia el tono"
+## Cómo mejorar un prompt que no funciona
 
-### Recursos para seguir aprendiendo
-- **Claude** — claude.ai (recomendado para tareas de negocio)
-- **ChatGPT** — chatgpt.com (el más conocido)
-- **Perplexity** — para búsquedas con fuentes verificadas
+1. **Añade contexto** — cuanto más sabe la IA de tu situación, mejor responde
+2. **Sé más específico** — "haz un informe" → "haz un informe de una página con 3 secciones"
+3. **Pide el formato** — tabla, lista, email formal, ficha estructurada...
+4. **Pídele que mejore** — "hazlo más conciso" / "cambia el tono" / "añade una columna de prioridad"
 
 ---
 
-## Cheatsheet de prompts — Para imprimir y guardar
+## Cheatsheet — Para guardar y usar mañana
 
 | Caso de uso | 🔵 Contexto | 🟡 Tarea | 🟢 Formato |
 |-------------|-------------|----------|------------|
-| Filtrar extracto bancario | Tarjeta prepago empresa, extracto mensual | Filtra solo parking (AENA/SMAP), ignora recargas | Tabla fecha/establecimiento/importe + total |
-| Informe de ventas | Empresa rent-a-car, datos por delegación | Informe ejecutivo: positivos, mejoras, 3 recomendaciones | Texto con subtítulos, tono profesional |
-| Comparar presupuestos | Responsable de compras, 2 presupuestos recibidos | Compara precio, plazo, garantía y recomienda | Tabla comparativa + párrafo de recomendación |
-| Nombres de carpetas | Lista de vehículos con bastidor/matrícula/modelo | Genera nombre formato B1_MARCA_MODELO_MATRICULA | Una línea por vehículo, mayúsculas |
-| Extraer datos de factura | Factura escaneada en PDF | Extrae nº factura, fecha, proveedor, matrícula, totales | Tabla con esos campos |
-| Ideas de blog SEO | Rent-a-car Mallorca, público empresas y turismo negocio | 10 ideas de artículos por potencial de búsqueda | Tabla título/intención/palabras clave |
-| Matriz de candidatos | RRHH, proceso selección, 3 CVs | Compara por 5 competencias, puntúa 1-5, recomienda | Tabla de puntuaciones + párrafo recomendación |
-| Negociación laboral | RRHH, contexto de negociación con comité | Simula argumentos sindicales + contraargumentos | Tabla argumento/contraargumento + propuesta |
-| Plan de onboarding | RRHH, nueva incorporación commercial | Plan 30 días con objetivos, actividades, KPIs | Tabla semanal 4 columnas |
-| CRM con notas de visitas | Comercial, notas en formato libre | Extrae cliente, acción, fecha seguimiento, prioridad | Tabla estructurada |
+| Filtrar extracto bancario | Tarjeta prepago empresa | Filtra parking (AENA/SMAP), ignora recargas | Tabla fecha/establecimiento/importe + total |
+| Informe de ventas | Empresa rent-a-car, datos por delegación | Informe: positivos, mejoras, 3 recomendaciones | Texto con subtítulos |
+| Comparar presupuestos | Responsable compras, 2 presupuestos | Compara precio, plazo, garantía y recomienda | Tabla + párrafo recomendación |
+| Nombres de carpetas flota | Lista vehículos con bastidor/matrícula | Genera B1_MARCA_MODELO_MATRICULA | Una línea por vehículo, mayúsculas |
+| Extraer datos de factura | Factura escaneada PDF | Extrae nº, fecha, proveedor, matrícula, totales | Tabla con esos campos |
+| Ideas de blog SEO | Rent-a-car Mallorca, público empresas | 10 ideas por potencial de búsqueda | Tabla título/intención/palabras clave |
+| Adaptar eslogan a idiomas | Rent-a-car, mercados ES/DE/UK | Adapta manteniendo tono, no traducción literal | Una línea por idioma + justificación |
+| Matriz candidatos RRHH | 3 CVs, puesto atención al cliente | Compara 5 competencias, puntúa 1-5 | Tabla + párrafo recomendación |
+| Negociación laboral | RRHH, negociación con comité empresa | Simula argumentos sindicales + contraargumentos | Tabla + propuesta intermedia |
+| Plan de onboarding | RRHH, nueva incorporación comercial | Plan 30 días con objetivos y KPIs | Tabla semanal 5 columnas |
 
 ---
 
