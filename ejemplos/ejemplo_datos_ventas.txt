@@ -1,0 +1,40 @@
+DATOS DE VENTAS — MAYO 2026
+Empresa: Roig Rent-a-Car Mallorca
+
+VENTAS POR DELEGACIÓN
+----------------------------------------------
+Delegación          Contratos   Importe €    Obj. €    % Obj.
+----------------------------------------------
+Palma Centro            87       41.250       45.000     91,7%
+Aeropuerto PMI         134       68.900       60.000    114,8%
+Alcúdia                 52       24.100       28.000     86,1%
+Manacor                 31       13.800       15.000     92,0%
+Ibiza                   44       22.600       25.000     90,4%
+----------------------------------------------
+TOTAL                  348      170.650      173.000     98,6%
+
+VENTAS POR TIPO DE VEHÍCULO
+----------------------------------------------
+Categoría         Contratos   Importe €   Precio medio/día
+----------------------------------------------
+Turismo económico     112       28.400        38,50 €
+Turismo medio         98        32.200        52,00 €
+SUV / Crossover       76        41.800        75,00 €
+Furgoneta/Comercial   42        35.100        95,00 €
+Lujo/Premium          20        33.150       180,00 €
+----------------------------------------------
+
+INCIDENCIAS Y NOTAS DEL MES
+----------------------------------------------
+- Aeropuerto PMI: superó objetivos por +14,8%. Incremento de vuelos charter semana 18-21.
+- Alcúdia: 3 vehículos fuera de servicio por averías (semanas 2 y 3). Impacto estimado: -4.200 €.
+- Palma Centro: 2 bajas de personal en semana 3. Cobertura con refuerzo temporal.
+- Nueva categoría SUV tiene lista de espera de 8 clientes para junio.
+- Ibiza: clientela corporativa disminuyó vs abril (-12%). Revisar acuerdos con empresas locales.
+- Tasa de devoluciones con daños: 4,3% (media habitual: 3,1%). Revisar protocolo de entrega.
+
+COMPARATIVA VS AÑO ANTERIOR (Mayo 2025)
+----------------------------------------------
+Contratos: +23 (+7,1%)
+Importe: +18.650 € (+12,3%)
+Precio medio/día: +4,20 € (+8,1%)

@@ -1,0 +1,51 @@
+================================================
+         TALLER MECÁNICO AUTOMÓVILES BAUÇÀ
+         C/ Son Fangos, 45 · 07007 Palma de Mallorca
+         Tel: 971 234 567 · NIF: B07987654
+         taller@autocbauza.es
+================================================
+
+                    F A C T U R A
+
+Nº Factura:     FAC-2026-0892
+Fecha:          05/06/2026
+Vencimiento:    05/07/2026
+
+------------------------------------------------
+CLIENTE:
+Roig Rent-a-Car S.L.
+C/ Palma, 123 · 07001 Palma de Mallorca
+CIF: B07111222
+------------------------------------------------
+
+VEHÍCULO:
+Matrícula:      4567DEF
+Marca/Modelo:   SEAT Ibiza FR 1.0 TSI
+Bastidor:       VSSZZZ6FZHR567890
+Km entrada:     48.320
+
+------------------------------------------------
+DESCRIPCIÓN DE TRABAJOS Y MATERIALES
+
+Cód.    Descripción                          Ud.   P.Unit    Total
+------------------------------------------------------------------
+MO001   Mano de obra mecánica (2,5h)         2,5   45,00    112,50
+FR001   Filtro de aceite SEAT original        1    12,90     12,90
+AC001   Aceite motor 5W30 (5 litros)          5     9,20     46,00
+FR002   Filtro de aire                        1    18,50     18,50
+PA001   Pastillas de freno delanteras (kit)   1    64,00     64,00
+MO002   Montaje pastillas freno (1h)          1    45,00     45,00
+------------------------------------------------------------------
+
+                              Base imponible:     298,90 €
+                              IVA (21%):           62,77 €
+                              TOTAL FACTURA:      361,67 €
+
+------------------------------------------------
+FORMA DE PAGO: Transferencia bancaria 30 días
+CUENTA: ES12 2100 0418 4502 0005 1332
+
+OBSERVACIONES:
+- Próxima revisión recomendada: 58.000 km o 12 meses
+- Frenos traseros: revisar en próxima visita (desgaste 60%)
+================================================

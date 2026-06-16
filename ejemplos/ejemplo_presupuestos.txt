@@ -1,0 +1,61 @@
+=============================================
+PRESUPUESTO 1 — AutoParts Balear S.L.
+Fecha: 10/06/2026
+Referencia: APB-2026-0847
+=============================================
+
+Proveedor: AutoParts Balear S.L.
+CIF: B07123456
+Contacto: Juan Ferrer · jferrer@autopartsbalear.com
+
+CONCEPTO: Suministro de neumáticos para flota (lote de 40 unidades)
+
+Descripción                          Ud.   Precio unit.   Total
+---------------------------------------------------------------
+Neumático Michelin Pilot 205/55R16   40      68,50 €     2.740,00 €
+Montaje y equilibrado                40       8,00 €       320,00 €
+Válvulas nuevas                      40       1,50 €        60,00 €
+---------------------------------------------------------------
+Base imponible:                                          3.120,00 €
+IVA (21%):                                                 655,20 €
+TOTAL:                                                   3.775,20 €
+
+Plazo de entrega: 7 días laborables desde confirmación
+Forma de pago: 30 días fecha factura
+Garantía: 2 años / 40.000 km
+Transporte: incluido
+Descuento por volumen: 5% aplicado en precio unitario
+
+=============================================
+PRESUPUESTO 2 — Neumáticos Mallorca Pro S.A.
+Fecha: 11/06/2026
+Referencia: NMP-062026-114
+=============================================
+
+Proveedor: Neumáticos Mallorca Pro S.A.
+CIF: A07654321
+Contacto: María Coll · mcoll@neumaticosmp.es
+
+CONCEPTO: Neumáticos para vehículos de flota (40 unidades)
+
+Descripción                          Ud.   Precio unit.   Total
+---------------------------------------------------------------
+Neumático Continental EcoContact 205/55R16  40   62,00 €  2.480,00 €
+Montaje                              40      10,00 €       400,00 €
+Equilibrado                          40       4,00 €       160,00 €
+Válvulas                             40       2,00 €        80,00 €
+---------------------------------------------------------------
+Base imponible:                                          3.120,00 €
+IVA (21%):                                                 655,20 €
+TOTAL:                                                   3.775,20 €
+
+Plazo de entrega: 3 días laborables desde confirmación
+Forma de pago: 60 días fecha factura
+Garantía: 2 años / 35.000 km
+Transporte: no incluido (coste estimado: 45 € adicionales)
+Descuento por volumen: no aplicado (mínimo 50 unidades)
+
+NOTAS ADICIONALES:
+- Michelin Pilot: neumático de gama sport/rendimiento
+- Continental EcoContact: neumático de eficiencia, menor consumo
+- NMP ofrece revisión gratuita a los 6 meses

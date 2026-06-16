@@ -1,0 +1,52 @@
+EXTRACTO TARJETA PREPAGO EMPRESA — CaixaBank
+Titular: CARLOS MARTINEZ ROJO
+Periodo: 01/05/2026 al 15/05/2026
+Saldo actual: 1.025,27 €
+
+Establecimiento                  Fecha          Importe
+------------------------------------------------------------
+AENA PMI PARKING-P1 CAJER        01/05/2026      -2,60
+AENA PMI PARKING-P1 CAJER        01/05/2026      -5,05
+AENA PMI PARKING-P1 CAJER        01/05/2026      -2,90
+AENA PMI PARKING-P1 CAJER        01/05/2026      -8,75
+AENA PMI PARKING-P1 CAJER        02/05/2026      -9,25
+AENA PMI PARKING-P1 CAJER        02/05/2026      -5,20
+AENA PALMA MALLORCA              02/05/2026      -7,80
+AENA PALMA MALLORCA              02/05/2026      -2,40
+AENA PMI PARKING-P1 CAJER        03/05/2026      -2,90
+AENA PMI PARKING-P1 CAJER        03/05/2026      -2,15
+AENA PMI PARKING-P1 CAJER        03/05/2026      -3,50
+AENA PALMA MALLORCA              03/05/2026      -5,50
+AENA PALMA MALLORCA              03/05/2026      -4,60
+AENA PALMA MALLORCA              03/05/2026      -6,10
+FERRETERIA CA'N PASTILLA         03/05/2026      -8,42
+AENA PMI PARKING-P1 CAJER        04/05/2026      -9,70
+AENA PMI PARKING-P1 CAJER        04/05/2026      -3,65
+AENA PALMA MALLORCA              04/05/2026      -1,65
+AENA PALMA MALLORCA              04/05/2026      -1,40
+SMAP ANTONI MAURA                05/05/2026     -28,45
+AENA PMI PARKING-P1 CAJER        05/05/2026      -4,60
+AENA PMI PARKING-P1 CAJER        05/05/2026     -10,40
+AENA PALMA MALLORCA              05/05/2026      -6,80
+RECARGA TARJETA PREPAGO          07/05/2026    +1.000,00
+AENA PMI PARKING-P1 CAJER        07/05/2026      -6,40
+AENA PALMA MALLORCA              07/05/2026      -3,55
+SMAP VIA ROMA                    10/05/2026     -24,00
+AENA PALMA MALLORCA              10/05/2026      -4,95
+AENA PALMA MALLORCA              10/05/2026      -4,30
+AENA PMI PARKING-P1 CAJER        11/05/2026     -11,30
+AENA PALMA MALLORCA              11/05/2026      -3,15
+FERRETERIA CA'N PASTILLA         11/05/2026     -14,91
+AENA PMI PARKING-P1 CAJER        12/05/2026      -5,50
+AENA PALMA MALLORCA              12/05/2026      -6,25
+AENA PMI PARKING-P1 CAJER        13/05/2026      -4,80
+AENA PALMA MALLORCA              13/05/2026      -3,90
+RECARGA TARJETA PREPAGO          14/05/2026     +500,00
+AENA PMI PARKING-P1 CAJER        14/05/2026      -7,20
+AENA PALMA MALLORCA              15/05/2026      -5,10
+AENA PMI PARKING-P1 CAJER        15/05/2026      -4,45
+
+------------------------------------------------------------
+Total operaciones: 40
+Operaciones Mayo (gastos): -516,80 €
+Recargas: +1.500,00 €
