@@ -121,7 +121,7 @@ Una línea por vehículo. Todo en mayúsculas, sin espacios, usando guiones bajo
 ---
 
 ## Ejercicio 5 — Extraer datos de una factura escaneada
-**Para:** Antonia / Cati · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_factura_escaneada.txt)
+**Para:** Antonia / Cati · [📎 Descargar factura PDF de ejemplo](https://github.com/rafaadrover/curs-ia-roig/raw/main/ejemplos/factura_taller_bauza.pdf)
 
 **Situación:** Tienes una factura de taller en PDF. En lugar de leerla y copiar los datos a mano, arrastras el fichero al chat y la IA extrae todo automáticamente.
 
