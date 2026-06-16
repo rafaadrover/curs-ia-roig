@@ -301,6 +301,33 @@ Tabla con columnas: Semana | Objetivos | Actividades | Responsable | Indicador d
 
 ---
 
+## Ejercicio 12 — Redactar un acta de reunión
+**Para:** Todos · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_notas_reunion.txt)
+
+**Situación:** El secretario de una reunión ha tomado notas en bruto mientras todo el mundo hablaba — abreviaturas, frases incompletas, sin formato. Hay que convertir esas notas en un acta profesional lista para archivar y compartir.
+
+**Cómo hacerlo:** descarga el fichero, ábrelo, copia todo el contenido y pégalo al final del prompt.
+
+```
+🔵 CONTEXTO:
+Soy el secretario de una reunión de dirección en Roig Rent-a-Car celebrada el 16 de junio de 2026.
+Tengo las notas en bruto que tomé durante la reunión.
+
+🟡 TAREA:
+Redacta el acta formal de la reunión a partir de mis notas.
+Incluye: lista de asistentes con su cargo, hora de inicio y fin, orden del día deducido de los temas tratados,
+resumen de lo que aportó cada persona, acuerdos y compromisos adoptados con responsable y fecha límite.
+
+🟢 FORMATO:
+Documento estructurado con secciones: Datos de la reunión | Asistentes | Orden del día |
+Desarrollo de la reunión (por participante) | Acuerdos y compromisos | Próxima reunión.
+Tono formal y redacción en tercera persona.
+
+Notas: [PEGAR LAS NOTAS AQUÍ]
+```
+
+---
+
 ## Lo que NO funciona — prompts malos
 
 #### ❌ El prompt vacío
