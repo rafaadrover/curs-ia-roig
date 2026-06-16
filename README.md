@@ -204,6 +204,34 @@ Una línea por idioma con el eslogan propuesto y una frase corta explicando por 
 
 ---
 
+## Ejercicio 8b — Propuesta visual de mejora web para TI
+**Para:** Helena
+
+**Situación:** Helena detecta que el motor de búsqueda de booking.roig.com puede mejorar la conversión, pero no sabe programar. Con una captura de pantalla y un prompt, la IA genera un rediseño en HTML listo para enviar al equipo de TI como propuesta concreta.
+
+**Cómo hacerlo:** haz una captura de la pantalla que quieres mejorar, arrástrala al chat y usa este prompt:
+
+```
+🔵 CONTEXTO:
+Soy responsable de marketing de una empresa de rent-a-car.
+Adjunto una captura de pantalla de nuestro motor de búsqueda de vehículos (booking.roig.com).
+
+🟡 TAREA:
+Propón mejoras de UX/UI para esta pantalla con el objetivo de aumentar la conversión.
+Céntrate en cómo se presentan las tarifas y cómo el usuario toma la decisión de reserva.
+Luego genera el HTML completo con el diseño mejorado, usando los mismos datos y precios de la captura.
+
+🟢 FORMATO:
+Primero lista los 3-5 problemas de UX que has detectado y cómo los resuelves.
+Luego el código HTML completo del rediseño, listo para copiar y enviar al equipo de TI.
+```
+
+**Lo que obtendrás:** un análisis de problemas de conversión + código HTML con el rediseño visual. Sin saber programar, Helena puede hacer propuestas concretas a TI en minutos en lugar de semanas.
+
+> **Tip:** Este mismo prompt funciona para cualquier pantalla de la web — fichas de vehículo, formulario de reserva, página de inicio...
+
+---
+
 ## Ejercicio 9 — Matriz de evaluación de candidatos
 **Para:** Mariano · Descargar CVs: [📎 Laura Méndez](https://github.com/rafaadrover/curs-ia-roig/raw/main/ejemplos/cv_laura_mendez.pdf) · [📎 Tomás García](https://github.com/rafaadrover/curs-ia-roig/raw/main/ejemplos/cv_tomas_garcia.pdf) · [📎 Priya Nair](https://github.com/rafaadrover/curs-ia-roig/raw/main/ejemplos/cv_priya_nair.pdf)
 
