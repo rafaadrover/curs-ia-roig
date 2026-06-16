@@ -384,6 +384,76 @@ Datos: [PEGAR AQUÍ]
 
 ---
 
+## Mapa de herramientas por caso de uso
+
+No todas las IAs son iguales. Esta tabla te ayuda a elegir la más adecuada según lo que necesitas hacer.
+
+| Herramienta | Para qué es mejor | Acceso |
+|-------------|-------------------|--------|
+| **Claude** (claude.ai) | Analizar documentos largos, razonar sobre datos complejos, redactar con matiz, seguir instrucciones precisas | Navegador, gratis |
+| **ChatGPT** (chatgpt.com) | Tareas generales, generar ideas, explicar conceptos, borrador rápido | Navegador, gratis |
+| **ChatGPT Plus** | Todo lo anterior + analizar Excel/CSV, generar gráficos automáticos, plugins | 20€/mes |
+| **Gemini** (gemini.google.com) | Integrado con Google Docs/Gmail/Drive, ideal si ya usas el ecosistema Google | Navegador, gratis |
+| **Copilot** (copilot.microsoft.com) | Integrado con Office 365 — redactar en Word, analizar en Excel, resumir en Teams | Incluido en M365 Business |
+| **Midjourney** / **DALL-E** | Generar imágenes para marketing, mockups visuales, materiales corporativos | midjourney.com / dentro de ChatGPT Plus |
+| **Canva AI** | Crear presentaciones y materiales gráficos con texto generado e imágenes IA | canva.com, gratis básico |
+| **Whisper / Otter.ai** | Transcribir reuniones, convertir audio a texto, generar resúmenes de llamadas | otter.ai, freemium |
+| **NotebookLM** (Google) | Analizar varios documentos a la vez, hacer preguntas cruzadas sobre PDFs | notebooklm.google.com, gratis |
+
+### ¿Cuál uso según mi caso?
+
+| Situación | Herramienta recomendada |
+|-----------|------------------------|
+| Filtrar un extracto bancario o analizar datos | Claude o ChatGPT |
+| Redactar un informe o email profesional | Claude o ChatGPT |
+| Analizar varios CVs o documentos a la vez | NotebookLM o Claude |
+| Crear imágenes para campañas | Midjourney o DALL-E (vía ChatGPT Plus) |
+| Propuesta visual / mockup de web | ChatGPT Plus o Claude |
+| Resumir una reunión grabada | Otter.ai o Whisper |
+| Trabajar dentro de Excel o Word | Copilot (M365) |
+| Preparar una presentación con diseño | Canva AI |
+
+---
+
+## ¿Qué puedo hacer YO mañana?
+
+No hace falta esperar. Aquí tienes una primera tarea concreta para cada persona, lista para hacer mañana con las herramientas del curso.
+
+### Adriana
+Coge un email difícil que tengas pendiente de contestar — uno que no sabes cómo formular. Pégalo en Claude y pide: *"Redacta una respuesta profesional y cordial a este email. Tono: directo pero amable."*
+
+### Alexia
+Abre las notas de tus últimas visitas comerciales. Pégalas en Claude y pide que te genere un resumen ejecutivo por cliente con estado de la relación y próxima acción recomendada.
+
+### Angels
+Coge los datos de ventas del mes en curso. Pídele a Claude un informe ejecutivo de una página con puntos positivos, puntos de mejora y 3 recomendaciones. Tarda 30 segundos.
+
+### Antonia
+Abre el listado de vehículos de la flota. Pídele a Claude que genere los nombres de carpeta con el formato estándar `B1_MARCA_MODELO_MATRICULA` para todos. Tendrás la estructura lista para crear las carpetas.
+
+### Cati
+La próxima vez que lleguen facturas de un proveedor nuevo, sube el PDF a Claude y pide: *"Extrae número de factura, fecha, proveedor, NIF, base imponible, IVA y total. Formato tabla."* Sin teclear nada.
+
+### Guillem
+Cuando lleguen dos presupuestos para el mismo material, pégalos en Claude y pide la comparativa. Tendrás la recomendación razonada en 20 segundos, lista para adjuntar al expediente.
+
+### Helena
+Entra en Midjourney o en ChatGPT Plus. Pídele una imagen para la campaña de verano: *"Fotografía publicitaria de un coche de alquiler en una carretera costera de Mallorca, luz de atardecer, estilo lifestyle moderno, formato horizontal."* Compárala con lo que cuesta una sesión fotográfica.
+
+### Margalida
+Coge el borrador de cualquier comunicación que tengas pendiente — newsletter, email a clientes, nota interna. Pide a Claude que la revise: *"Mejora la redacción. Mantén el mensaje pero hazlo más claro y profesional."*
+
+### Mariano
+Prepara el perfil del puesto que tienes abierto. Pega los tres CVs en Claude y pide la matriz comparativa de competencias. Tendrás la evaluación estructurada lista para la entrevista.
+
+### Rafel
+La próxima reunión de dirección: pide al secretario que tome notas en bruto. Después pégalas en Claude con el prompt del Ejercicio 12. El acta formal estará lista en 2 minutos.
+
+### Xisca
+Coge las últimas 5 solicitudes de devolución. Pégalas en Claude y pide: *"Clasifica cada caso: si el pago fue con tarjeta asígnalo a Xisca, si fue por transferencia a Guillem. Formato tabla con nombre cliente, motivo, importe, responsable."*
+
+---
+
 ## Cheatsheet — Para guardar y usar mañana
 
 | Caso de uso | 🔵 Contexto | 🟡 Tarea | 🟢 Formato |
