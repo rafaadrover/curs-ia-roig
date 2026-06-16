@@ -205,7 +205,7 @@ Una línea por idioma con el eslogan propuesto y una frase corta explicando por 
 ---
 
 ## Ejercicio 9 — Matriz de evaluación de candidatos
-**Para:** Mariano · [📎 Descargar fichero de ejemplo](https://raw.githubusercontent.com/rafaadrover/curs-ia-roig/main/ejemplos/ejemplo_cvs_candidatos.txt)
+**Para:** Mariano · Descargar CVs: [📎 Laura Méndez](https://github.com/rafaadrover/curs-ia-roig/raw/main/ejemplos/cv_laura_mendez.pdf) · [📎 Tomás García](https://github.com/rafaadrover/curs-ia-roig/raw/main/ejemplos/cv_tomas_garcia.pdf) · [📎 Priya Nair](https://github.com/rafaadrover/curs-ia-roig/raw/main/ejemplos/cv_priya_nair.pdf)
 
 **Situación:** Tienes 3 CVs para el puesto de Agente de Atención al Cliente. En lugar de leer cada uno y comparar mentalmente, la IA genera una matriz con puntuaciones objetivas.
 
